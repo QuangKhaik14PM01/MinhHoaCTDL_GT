@@ -28,7 +28,14 @@ public class ChuongTrinhlab2bai4 {
     }
 
     static void giaiptbac1(){
-         System.out.println("triển khai code giải ptbac1....");
+         float a = 0, b = 0;
+         
+         if(a == 0){
+             if(b == 0){
+                 System.out.println("pt vô số nghiệm...");
+             }
+
+         }
 
     }
     static void giaiptbac2(){
