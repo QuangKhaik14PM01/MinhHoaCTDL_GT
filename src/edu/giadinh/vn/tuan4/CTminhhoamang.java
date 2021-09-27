@@ -18,10 +18,11 @@ public class CTminhhoamang {
         //khai báo có khởi tạo giá trị cho mảng
         double diemmonhoc[] = new double[]{10.5, 5.5, 3.0, 4.5};
         System.out.println("mảng điểm môn học " + Arrays.toString(diemmonhoc));
-        
+
         diemmonhoc[0] = diemmonhoc[1];
         //5.5, 5.5, 3.0, 4.5
         System.out.println("mảng điểm môn học " + Arrays.toString(diemmonhoc));
+        System.out.println("số phần tử của mảng điểm môn học " + diemmonhoc.length); 
 
         //CÁCH 2
         String dstensinhvien[] = {"Tèo", "Tý", "Tửng"};
