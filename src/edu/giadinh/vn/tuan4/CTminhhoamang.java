@@ -27,6 +27,17 @@ public class CTminhhoamang {
         //CÁCH 2
         String dstensinhvien[] = {"Tèo", "Tý", "Tửng"};
 
+        //dùng vòng lặp để duyệt mảng
+        System.out.println("==========DUYỆT MẢNG=========");
+        for(int i = 0; i < diemmonhoc.length; i++){
+            System.out.println(diemmonhoc[i]);
+        }
+        System.out.println("===========for each==========");
+         //FOR-EACH
+         for(double diem : diemmonhoc){
+             System.out.println(diem);
+         }
+
 
     }
     
