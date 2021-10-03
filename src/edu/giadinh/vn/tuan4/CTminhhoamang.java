@@ -16,6 +16,7 @@ public class CTminhhoamang {
         mangsonguyen[0] = 2;
 
         //khai báo có khởi tạo giá trị cho mảng
+        
         double diemmonhoc[] = new double[]{10.5, 5.5, 3.0, 4.5};
         System.out.println("mảng điểm môn học " + Arrays.toString(diemmonhoc));
 
@@ -37,6 +38,31 @@ public class CTminhhoamang {
          for(double diem : diemmonhoc){
              System.out.println(diem);
          }
+         //mảng có kiểu dữ liệu tham chiếu đối tượng
+         dog[] danhsachdog = new dog[7];
+         dog dog0 = new dog(10, "đen", "fido");
+         dog dog1 = new dog(7, "vàng", "la la");
+         dog dog2 = new dog(25, "đen trắng", "lulu");
+         dog dog3 = new dog(15, "boo", "bee");
+         dog dog4 = new dog(21, "bơ", "bin");
+         dog dog5 = new dog(24, "bu", "lu");
+         dog dog6 = new dog(35, "mina", "meosenpai");
+         
+       
+         danhsachdog[0] = dog0;
+         danhsachdog[2] = dog2;
+         danhsachdog[3] = dog1;
+         danhsachdog[1] = dog3;
+         danhsachdog[4] = dog4;
+         danhsachdog[5] = dog5;
+         danhsachdog[6] = dog6;
+
+           danhsachdog[1] = new dog(55, "xám", "nanh trắng");
+         for(int i = 0;i < danhsachdog.length; i++){
+            danhsachdog[i].inthongtin(); 
+         }
+         
+
 
 
     }
