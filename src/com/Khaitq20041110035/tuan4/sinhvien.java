@@ -1,10 +1,10 @@
 package com.Khaitq20041110035.tuan4;
 
 public class sinhvien {
-    String mssv;
-    String hoten;
-    int tuoi;
-    String quequan;
+    public String mssv;
+     public String hoten;
+     public int tuoi;
+    public String quequan;
 
     public sinhvien(){}
     public sinhvien(String m, String h, int t, String q){

@@ -1,9 +1,9 @@
 package com.Khaitq20041110035.tuan4;
 
 public class dog {
-    int size;
-    String color;
-    String name;
+   public int size;
+   public String color;
+   public String name;
 
     public dog(){}
     public dog(int s){
