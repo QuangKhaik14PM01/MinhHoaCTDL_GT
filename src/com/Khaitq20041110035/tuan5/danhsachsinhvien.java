@@ -28,19 +28,19 @@ public class danhsachsinhvien {
 		}
 		
 //		3.	Kiểm tra danh sách có rỗng hay không.
-		public boolean kiemTraDanhSachRong() {
-			return this.danhSach.isEmpty();
-		}
+		//public boolean kiemTraDanhSachRong() {
+		//	return this.danhSach.isEmpty();
+	//	}
 		
 //		4.	Lấy ra số lượng sinh viên trong danh sách.
-		public int laySoLuongSinhVien() {
-			return this.danhSach.size();
-		}
+	//	public int laySoLuongSinhVien() {
+	//		return this.danhSach.size();
+	//	}
 		
 //		5.	Làm rỗng danh sách sinh viên.
-		public void lamRongDanhSach() {
-			this.danhSach.removeAll(danhSach);
-		}
+	//	public void lamRongDanhSach() {
+	//		this.danhSach.removeAll(danhSach);
+	//	}
 		
 //		6.	Kiểm tra sinh viên có tồn tại trong danh sách hay không, dựa trên mã sinh viên.
 		public boolean kiemTraTonTai(sinhvien sv) {
