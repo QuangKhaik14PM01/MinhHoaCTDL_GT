@@ -10,7 +10,7 @@ public class lab5bai1 {
         ArrayList<Double> arrListDouble = new ArrayList<>();
         Scanner Scanner =  new Scanner(System.in);
              
-        System.out.println("Nhập vào số phần tử của ArrayList: ");
+        System.out.println("Nhập vào số phần tử : ");
         n =  Scanner.nextInt();
              
         for (int i = 0; i < n; i++) {
@@ -23,7 +23,7 @@ public class lab5bai1 {
         for (double element : arrListDouble) {
             sum += element;
         }   
-        System.out.println("Tổng của các phần tử trong arrListDouble = " + sum);
+        System.out.println("Tổng của các phần tử  = " + sum);
     }
     
 }
