@@ -18,6 +18,7 @@ public class danhsachsanpham {
         // 1.	Thêm sản phẩm vào danh sách.
 		public void themsanpham(sanpham sp) {
 			this.danhSach.add(sp);
+		//Collections.shuffle(danhSach);
 		}
 		//In danh sách sản phẩm ra màn hình.
 		public void indanhsachsanpham() {

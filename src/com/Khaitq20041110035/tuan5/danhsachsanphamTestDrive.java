@@ -1,5 +1,6 @@
 package com.Khaitq20041110035.tuan5;
 
+
 import java.util.Scanner;
 
 import com.Khaitq20041110035.tuan5.danhsachsanpham;
@@ -32,6 +33,8 @@ public class danhsachsanphamTestDrive {
                                 System.out.println("Nhập thuế nhập khẩu: "); Double thuenhapkhau = kiem1.nextDouble();
                                 sanpham sp = new sanpham(tensanpham, dongia, giamgia, thuenhapkhau);
                                 dssp.themsanpham(sp);
+                             
+                             
                                 
                             }else if(luaChon==2) {
                                 //				9.	Xuất ra danh sách sản phẩm  từ cao đến thấp.
