@@ -8,7 +8,7 @@ public class mylinklistTestDrive {
        mylinklist.addtail(8);
       
       
-       mylinklist.add(6,0);
+       mylinklist.add(6,3);
        mylinklist.add(8, 6);
       
        mylinklist.print();

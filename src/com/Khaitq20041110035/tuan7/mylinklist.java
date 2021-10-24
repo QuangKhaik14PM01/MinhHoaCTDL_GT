@@ -24,7 +24,7 @@ public class mylinklist {
 
     }
     void addHead(int data){
-        Node newNode = new Node(data);
+    node newNode = new node(data);
 
         if(head == null){
             head = newNode;
@@ -35,7 +35,7 @@ public class mylinklist {
         }}
 
         void removeHead(){
-            Node tam = head;
+            node tam = head;
             if(head == null){
                 System.out.println("- DANH SÁCH RỖNG");
                 return;
@@ -43,7 +43,7 @@ public class mylinklist {
                 head = tam.next;
         }
         void removeTail(){
-            Node tam = head;
+            node tam = head;
             if(head == null){
                 System.out.println("- DANH SÁCH RỖNG");
                 return;
@@ -58,8 +58,8 @@ public class mylinklist {
             }
         }
         void remove(int n){
-            Node tam1 = head;
-            Node tam2 = null;
+            node tam1 = head;
+            node tam2 = null;
             if(tam1 != null && tam1.data == n){
                 removeHead();
                 return;
@@ -95,14 +95,14 @@ public class mylinklist {
     }
     void add(int data, int n){
        
-        Node current = head;
+        node current = head;
         if(head.data == n){
             addHead(data);
             return;
         }
         while(current.next != null){
             if(current.next.data == n){
-                Node t = new Node(data);
+                node t = new node(data);
                 t.next = current.next;
                 current.next = t;
                 return;
@@ -116,7 +116,7 @@ public class mylinklist {
     }
     
     void sua(int n, int t){
-        Node current = head;
+        node current = head;
         while(current != null){
             if(current.data == n)
                 current.data = t;
