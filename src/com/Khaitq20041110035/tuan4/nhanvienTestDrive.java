@@ -23,7 +23,7 @@ public class nhanvienTestDrive {
             String bophanlamviec = nhap2.nextLine();
             nhap2.nextLine();
 
-            danhsachnhanvien[i] =  new nhanvien(tennhanvien,    luong, diachi, bophanlamviec); 
+            danhsachnhanvien[i] =  new nhanvien(tennhanvien,     luong, diachi, bophanlamviec); 
     
         }
         System.out.println("===========in danh sách sách=============");
