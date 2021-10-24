@@ -3,7 +3,7 @@ package com.Khaitq20041110035.tuan7;
 public class danhsachsanphamTestDrive {
 
     public static void main(String[] args) {
-        danhsachsanpham danhsachsanpham = new danhsachsanpham();
+      //  danhsachsanpham danhsachsanpham = new danhsachsanpham();
        // danhsachsanpham.add(danhsachsanpham);
        // danhsachsanpham.add(1, danhsachsanpham);
 

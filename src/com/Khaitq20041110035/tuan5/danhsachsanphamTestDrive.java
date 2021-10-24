@@ -8,7 +8,7 @@ import com.Khaitq20041110035.tuan5.sanpham;
 
 public class danhsachsanphamTestDrive {
     public static void main(String[] args) {
-        Scanner kiem1 = new Scanner(System.in);
+        Scanner kiemtra = new Scanner(System.in);
 		
 		danhsachsanpham dssp = new danhsachsanpham();
 		int luaChon = 0;
@@ -21,16 +21,16 @@ public class danhsachsanphamTestDrive {
 			+ "3.	Tìm kiếm tất cả sản phẩm dựa trên Tên được nhập từ bàn phím.\n"
 			+ "4.	Xóa một sản phẩm ra khỏi danh sách.\n"
             + "0.     thoát\n");
-			luaChon = kiem1.nextInt();
-			kiem1.nextLine();
+			luaChon = kiemtra.nextInt();
+			kiemtra.nextLine();
 
 
             if(luaChon==1) {
                 //				1.	Thêm sản phẩm vào danh sách.
-                                System.out.println("Nhập mã tên sản phẩm: "); String tensanpham = kiem1.nextLine();
-                                System.out.println("Nhập đơn giá: "); Double dongia = kiem1.nextDouble();
-                                System.out.println("Nhập giảm giá: "); Double giamgia = kiem1.nextDouble();
-                                System.out.println("Nhập thuế nhập khẩu: "); Double thuenhapkhau = kiem1.nextDouble();
+                                System.out.println("Nhập mã tên sản phẩm: "); String tensanpham = kiemtra.nextLine();
+                                System.out.println("Nhập đơn giá: "); Double dongia = kiemtra.nextDouble();
+                                System.out.println("Nhập giảm giá: "); Double giamgia = kiemtra.nextDouble();
+                                System.out.println("Nhập thuế nhập khẩu: "); Double thuenhapkhau = kiemtra.nextDouble();
                                 sanpham sp = new sanpham(tensanpham, dongia, giamgia, thuenhapkhau);
                                 dssp.themsanpham(sp);
                              
@@ -43,13 +43,13 @@ public class danhsachsanphamTestDrive {
 
     }else if(luaChon==3) {
 //				8.	Tìm kiếm tất cả sản phẩm dựa trên Tên được nhập từ bàn phím.
-				System.out.println("Nhập sản phẩm: "); String tensanpham = kiem1.nextLine();
+				System.out.println("Nhập sản phẩm: "); String tensanpham = kiemtra.nextLine();
 				System.out.println("Kết quả tìm kiếm: ");
 				dssp.timsanpham(tensanpham);
 				
 			}else if(luaChon==4) {
                 //				7.	Xóa một sản phẩm ra khỏi danh sách
-                                System.out.println("Nhập tên sản phẩm: "); String tensanpham = kiem1.nextLine();
+                                System.out.println("Nhập tên sản phẩm: "); String tensanpham = kiemtra.nextLine();
                                 sanpham sp = new sanpham(tensanpham);
                                 System.out.println("Xóa sinh viên trong danh sách: "+ dssp.xoasanpham(sp));
                             }
