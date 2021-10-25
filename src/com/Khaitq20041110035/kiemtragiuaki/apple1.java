@@ -1,8 +1,8 @@
 package com.Khaitq20041110035.kiemtragiuaki;
 
+import java.util.Objects;
 
-
-public class apple1 {
+public class apple1  {
     Double maid;
     Double khoiluong;
     String mausac;
@@ -37,7 +37,14 @@ public class apple1 {
     public void setmausac(String mausac) {
         this.mausac = mausac;
     }
+    @Override
+    public String toString() {
+        return "tên táo [mã id = " + maid + ", khối lượng = " +khoiluong + ", màu sắc = " + mausac
+                +  "]";
+    }
+
    
+    
     
     }
 

@@ -34,6 +34,8 @@ public class apple1TestDrive {
             }else if(luaChon==2) {
                 //				2.	In danh sách sinh viên ra màn hình.
                                 dst.indanhsachtao();
+                                kiemtratao.nextLine();
+                                
             }else if(luaChon==3) {
                 //				8.	Tìm kiếm tất cả sinh viên dựa trên Tên được nhập từ bàn phím.
                                 System.out.println("Nhập màu sắc: "); String mausac = kiemtratao.nextLine();
