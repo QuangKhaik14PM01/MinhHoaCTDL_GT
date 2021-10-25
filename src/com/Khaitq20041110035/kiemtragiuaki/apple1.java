@@ -1,6 +1,6 @@
 package com.Khaitq20041110035.kiemtragiuaki;
 
-import java.util.Objects;
+
 
 public class apple1 {
     Double maid;
