@@ -6,6 +6,11 @@ public class account {
     //data
     int accountnumber = 12345;
     int accountbanlance = 0;
+    String nameemploy;
+       double salary;
+      String name;
+       String address;
+
 Scanner input = new Scanner(System.in);
 
     //function
@@ -27,5 +32,16 @@ Scanner input = new Scanner(System.in);
             System.out.println("account number " +  accountnumber);
             System.out.println("account banlance " + accountbanlance);
         }
-    
-}
+        void getsalary(){
+            salary = 500;}
+             void getname(){
+                name = "khai ";  
+                nameemploy = "";
+            
+                }
+                String getcusname(){
+                    accountbanlance = 0;
+                    return name + address;
+                }
+        }
+

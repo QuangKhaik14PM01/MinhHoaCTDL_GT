@@ -1,5 +1,7 @@
 package oo;
 
+import java.beans.Customizer;
+
 public class accountTestDrive {
     public static void main(String[] args) {
        //biến tham chiếu đối tượng
@@ -11,5 +13,18 @@ public class accountTestDrive {
         account.show();
         account.withraw();
         account.show();
+        account.getsalary();
+        account.getname();
+        account.getcusname();
+
+
+        employ employ;
+        employ = new employ();
+        
+
+
+        custumer custumer;
+        custumer = new custumer();
+        };
     }
-}
+
