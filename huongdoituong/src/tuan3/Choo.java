@@ -1,6 +1,6 @@
 package tuan3;
 
-public class cho {
+public class Choo {
     int size;
     String breed;
     String name;

@@ -26,11 +26,11 @@ public class GuessGame {
             p3.guess();
 
             guessp1 =p1.number;
-            System.out.println("player 1 guess" + guessp1);
+            System.out.println("player 1 guess " + guessp1);
             guessp2 =p2.number;
-            System.out.println("player 2 guess" + guessp2);
+            System.out.println("player 2 guess " + guessp2);
             guessp3 =p3.number;
-            System.out.println("player 3 guess" + guessp3);
+            System.out.println("player 3 guess " + guessp3);
 
             if(guessp1 == targetnumber){
               p1right=true;
